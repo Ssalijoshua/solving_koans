@@ -24,7 +24,6 @@ class AboutDecoratingWithClasses(Koan):
 
     def test_partial_that_wrappers_first_arg(self):
         max0 = functools.partial(self.maximum, 0)
-
         self.assertEqual(__, max0(-4))
         self.assertEqual(__, max0(5))
 
